@@ -1,0 +1,501 @@
+order_id,customer_name,customer_email,phone_number,order_date,raw_address,product_category,product_price,quantity,order_status,payment_method
+ORD-1001,Deniz Yildiz,ayse_demir@hotmail.com,+90 532 123 45 67,N/A,Nilüfer / Bursa / 16140,home_decor,-100.00,-5,2,crypto
+ORD-1002,Ayşe Demir,deniz.yildiz@gmail.com,invalid_phone,2024-01-15,Kadıköy / İstanbul / 34710,ELECTRONICS,-100.00,ten,99,EFT/Havale
+ORD-1003,  ahmet YILMAZ ,fatma@domain,0(555) 444 33 22,N/A,N/A,Giyim,-100.00,10,shipped,CREDIT_CARD
+ORD-1004,Selin Ozturk ,emre.koc@gmail.com,532-111-2233,N/A,  Sarıyer / İstanbul  ,fashion,N/A,-5,CANCELLED,cash_on_delivery
+ORD-1005,Ayşe Demir,ayse_demir@hotmail.com,invalid_phone,15/01/2024,Odunpazarı - Eskişehir,fashion,0.00,0,1,N/A
+ORD-1006,fatma ARSLAN,ayse_demir@hotmail.com,invalid_phone,15/01/2024,N/A,Ev & Yaşam,9999999.99,,pending,EFT/Havale
+#1007,N/A,N/A,0533 987 65 43,2024-01-15,"Muratpaşa, Antalya",Ev & Yaşam, 2500 TL ,ten,2,Kapıda Ödeme
+ORD-1008,elIF Sahin ,burak.celik@gmail.com,5321234567,"Jan 15, 2024",Odunpazarı - Eskişehir,fashion,-100.00,100000,shipped,credit card
+ORD-1009,UNKNOWN,,532-111-2233,2024/03/10,"Muratpaşa, Antalya",Elektronik, 899.99 TL ,3,shipped,crypto
+ORD-1010,N/A,,5321234567,2024-04-05,Kadıköy / İstanbul / 34710,home_decor,"$1,250.50",5,COMPLETED,havale
+1011,Ayşe Demir,invalid_email_format,N/A,N/A,Odunpazarı - Eskişehir,home_decor,9999999.99,10,COMPLETED,N/A
+ORD-1012,mehmet KAYA,elif.sahin@gmail.com,532-111-2233,2024.01.15,N/A,Book,N/A,,COMPLETED,EFT/Havale
+,Zeynep  AKSOY,caner@company.co.tr,0(555) 444 33 22,"Jan 15, 2024",N/A,FASHION, 2500 TL ,1,2,cc
+#1014,Deniz Yildiz,mehmet@yahoo,invalid_phone,9999-99-99,"Çankaya, Ankara / 06540",Giyim,$45.90,,returned,crypto
+ORD-1015,elIF Sahin ,fatma@domain,+90 532 123 45 67,2024-13-45,"Çankaya, Ankara / 06540",sports,"15,000.00",0,pending,credit card
+ORD-1016,elIF Sahin ,zeynep.aksoy@outlook.com,532-111-2233,"Feb 28, 2024",Kadıköy / İstanbul / 34710,Spor & Outdoor,75.5,0,99,cc
+ORD-1017,fatma ARSLAN,ayse_demir@hotmail.com,+905423332211,2024-04-05,N/A,Kitap,-100.00,-5,pending,cc
+ORD-1018,fatma ARSLAN,emre.koc@gmail.com,,2024-01-15,"Yıldırım, Bursa - 16300",fashion, 899.99 TL ,1,2,cash_on_delivery
+ORD-1019,,emre.koc@gmail.com,+905423332211,2024.01.15,Kadıköy / İstanbul / 34710,home_decor,0.00,2.0,2,N/A
+ORD-1020,  Mustafa Aydin  ,ayse_demir@hotmail.com,,,Konak - İzmir - 35000,Elektronik,9999999.99,10,99,cc
+#1021,elIF Sahin ,fatma@domain,N/A,28/02/2024,"Muratpaşa, Antalya",Book,75.5,ten,shipped,Kapıda Ödeme
+1022,Deniz Yildiz,,5321234567,"Feb 28, 2024",N/A,FASHION, 2500 TL ,ten,CANCELLED,credit card
+ORD-1023,CANER ERKIN,ahmet.yilmaz@gmail.com,N/A,2024/03/10,"Muratpaşa, Antalya",Kitap,-100.00,1,2,CREDIT_CARD
+ORD-1024,N/A,ayse_demir@hotmail.com,+90 532 123 45 67,2024-04-05,Odunpazarı - Eskişehir,ELECTRONICS,"15,000.00",ten,shipped,N/A
+ORD-1025,N/A,fatma@domain,532-111-2233,N/A,"Yıldırım, Bursa - 16300",Kitap, 899.99 TL ,ten,returned,Kapıda Ödeme
+,N/A,ayse_demir@hotmail.com,0533 987 65 43,2024-13-45,  Sarıyer / İstanbul  ,fashion,$45.90,3,returned,CREDIT_CARD
+ORD-1027,Deniz Yildiz,,0533 987 65 43,2024-01-15,  Sarıyer / İstanbul  ,Spor & Outdoor,FREE,2.0,CANCELLED,BANK_TRANSFER
+#1028,N/A,fatma@domain,0500 000 00 00,"Jan 15, 2024",  Sarıyer / İstanbul  ,Elektronik,N/A,10,CANCELLED,credit card
+ORD-1029,BURAK CELIK,emre.koc@gmail.com,,15/01/2024,Kadıköy / İstanbul / 34710,sports,"15,000.00",1,2,BANK_TRANSFER
+ORD-1030,mehmet KAYA,zeynep.aksoy@outlook.com,0500 000 00 00,"Feb 28, 2024","Muratpaşa, Antalya",Giyim,"$1,250.50",-5,COMPLETED,CREDIT_CARD
+ORD-1031,Zeynep  AKSOY,elif.sahin@gmail.com,0500 000 00 00,15-01-2024,  Sarıyer / İstanbul  ,Spor & Outdoor,75.5,NULL,returned,cc
+ORD-1032,N/A,elif.sahin@gmail.com,0(555) 444 33 22,2024-01-15,"Yıldırım, Bursa - 16300",Spor & Outdoor,"15,000.00",1,pending,CREDIT_CARD
+1033,  ahmet YILMAZ ,deniz.yildiz@gmail.com,0500 000 00 00,2024/03/10,N/A,Elektronik,"$1,250.50",NULL,2,cc
+ORD-1034,Ayşe Demir,deniz.yildiz@gmail.com,0533 987 65 43,2024-13-45,"Muratpaşa, Antalya",Giyim, 2500 TL ,,CANCELLED,EFT/Havale
+#1035,UNKNOWN,ahmet.yilmaz@gmail.com,N/A,15/01/2024,  Sarıyer / İstanbul  ,sports,0.00,,99,cash_on_delivery
+ORD-1036,,elif.sahin@gmail.com,0(555) 444 33 22,2024-13-45,Odunpazarı - Eskişehir,home_decor,N/A,3,3,havale
+ORD-1037,BURAK CELIK,caner@company.co.tr,0533 987 65 43,2024-01-15,  ,Kitap,0.00,2.0,2,crypto
+ORD-1038,N/A,fatma@domain,+905423332211,"Jan 15, 2024",Odunpazarı - Eskişehir,ELECTRONICS,-100.00,5,shipped,cc
+,BURAK CELIK,fatma@domain,+905423332211,9999-99-99,N/A,electronics,9999999.99,NULL,shipped,credit card
+ORD-1040,,mehmet@yahoo,+905423332211,15/01/2024,"Çankaya, Ankara / 06540",Spor & Outdoor,"15,000.00",-5,shipped,havale
+ORD-1041,UNKNOWN,invalid_email_format,5321234567,2024.01.15,Nilüfer / Bursa / 16140,Book, 899.99 TL ,0,1,credit card
+#1042,Deniz Yildiz,zeynep.aksoy@outlook.com,+905423332211,2024-01-15,Kadıköy / İstanbul / 34710,fashion,"1250,50 €",100000,shipped,cc
+ORD-1043,emre KOC,burak.celik@gmail.com,,N/A,  Sarıyer / İstanbul  ,Book,"$1,250.50",2.0,2,cc
+1044,fatma ARSLAN,ahmet.yilmaz@gmail.com,5321234567,9999-99-99,N/A,Elektronik,$45.90,-5,1,havale
+ORD-1045,CANER ERKIN,emre.koc@gmail.com,+90 532 123 45 67,2024-02-28,"Muratpaşa, Antalya",sports,-100.00,100000,2,cash_on_delivery
+ORD-1046,Selin Ozturk ,fatma@domain,invalid_phone,9999-99-99,Konak - İzmir - 35000,home_decor,"1250,50 €",-5,COMPLETED,CREDIT_CARD
+ORD-1047,mehmet KAYA,N/A,5321234567,,  Sarıyer / İstanbul  ,sports,75.5,ten,shipped,cc
+ORD-1048,Selin Ozturk ,N/A,0533 987 65 43,28/02/2024,Kadıköy / İstanbul / 34710,FASHION,-100.00,ten,returned,cash_on_delivery
+#1049,elIF Sahin ,emre.koc@gmail.com,0(555) 444 33 22,2024.01.15,Kadıköy / İstanbul / 34710,sports,-100.00,3,pending,havale
+ORD-0049,  Mustafa Aydin  ,ayse_demir@hotmail.com,+905423332211,2024-02-28,N/A,Giyim,9999999.99,NULL,pending,CREDIT_CARD
+ORD-1051,Ayşe Demir,elif.sahin@gmail.com,532-111-2233,9999-99-99,Nilüfer / Bursa / 16140,electronics, 2500 TL ,,COMPLETED,cash_on_delivery
+,emre KOC,emre.koc@gmail.com,5321234567,28/02/2024,"Yıldırım, Bursa - 16300",Book, 2500 TL ,3,CANCELLED,havale
+ORD-1053,  ahmet YILMAZ ,N/A,invalid_phone,2024-01-15,N/A,Book,9999999.99,100000,CANCELLED,cash_on_delivery
+ORD-1054,Zeynep  AKSOY,ayse_demir@hotmail.com,5321234567,9999-99-99,Odunpazarı - Eskişehir,sports, 2500 TL ,0,99,havale
+1055,Deniz Yildiz,zeynep.aksoy@outlook.com,5321234567,28/02/2024,Nilüfer / Bursa / 16140,Book,"1250,50 €",ten,COMPLETED,Kapıda Ödeme
+#1056,Deniz Yildiz,N/A,532-111-2233,9999-99-99,"Yıldırım, Bursa - 16300",Ev & Yaşam,$45.90,NULL,1,havale
+ORD-1057,elIF Sahin ,invalid_email_format,invalid_phone,,"Yıldırım, Bursa - 16300",Kitap,9999999.99,5,returned,N/A
+ORD-1058,BURAK CELIK,,0(555) 444 33 22,2024/03/10,  ,Spor & Outdoor,"1250,50 €",100000,2,havale
+ORD-1059,fatma ARSLAN,,N/A,2024-02-28,"Çankaya, Ankara / 06540",home_decor,9999999.99,0,CANCELLED,BANK_TRANSFER
+ORD-1060,mehmet KAYA,ahmet.yilmaz@gmail.com,+90 532 123 45 67,2024.01.15,  ,Kitap, 2500 TL ,10,COMPLETED,EFT/Havale
+ORD-1061,N/A,N/A,invalid_phone,"Feb 28, 2024",  Sarıyer / İstanbul  ,home_decor,"1250,50 €",100000,1,credit card
+ORD-1062,Selin Ozturk ,zeynep.aksoy@outlook.com,0(555) 444 33 22,"Jan 15, 2024",N/A,FASHION,"$1,250.50",NULL,CANCELLED,credit card
+#1063,BURAK CELIK,mehmet@yahoo,0500 000 00 00,2024-13-45,N/A,Book,0.00,5,returned,EFT/Havale
+ORD-1064,  Mustafa Aydin  ,N/A,,28/02/2024,N/A,FASHION,"1250,50 €",10,returned,havale
+,Selin Ozturk ,invalid_email_format,+905423332211,,N/A,FASHION,9999999.99,ten,shipped,N/A
+1066,Ayşe Demir,N/A,+905423332211,2024.01.15,Nilüfer / Bursa / 16140,fashion,FREE,NULL,2,cc
+ORD-1067,mehmet KAYA,invalid_email_format,invalid_phone,N/A,Konak - İzmir - 35000,Spor & Outdoor,-100.00,2.0,COMPLETED,Kapıda Ödeme
+ORD-1068,CANER ERKIN,fatma@domain,0500 000 00 00,28/02/2024,Kadıköy / İstanbul / 34710,home_decor,$45.90,3,1,EFT/Havale
+ORD-1069,Zeynep  AKSOY,burak.celik@gmail.com,+90 532 123 45 67,2024-02-28,Nilüfer / Bursa / 16140,Giyim,$45.90,NULL,99,EFT/Havale
+#1070,,invalid_email_format,0500 000 00 00,2024.01.15,Nilüfer / Bursa / 16140,Giyim, 899.99 TL ,1,COMPLETED,cash_on_delivery
+ORD-1071,Deniz Yildiz,,invalid_phone,N/A,Konak - İzmir - 35000,FASHION,"1250,50 €",,99,CREDIT_CARD
+ORD-1072,,zeynep.aksoy@outlook.com,N/A,9999-99-99,Kadıköy / İstanbul / 34710,ELECTRONICS,9999999.99,3,3,N/A
+ORD-1073,mehmet KAYA,ahmet.yilmaz@gmail.com,+905423332211,28/02/2024,Odunpazarı - Eskişehir,home_decor, 899.99 TL ,5,pending,Kapıda Ödeme
+ORD-1074,elIF Sahin ,emre.koc@gmail.com,invalid_phone,15-01-2024,"Çankaya, Ankara / 06540",FASHION,"$1,250.50",NULL,1,cash_on_delivery
+ORD-1075,N/A,,0533 987 65 43,,Kadıköy / İstanbul / 34710,electronics,-100.00,ten,1,EFT/Havale
+ORD-1076,mehmet KAYA,invalid_email_format,532-111-2233,"Feb 28, 2024","Çankaya, Ankara / 06540",Kitap,-100.00,10,shipped,cash_on_delivery
+#1077,mehmet KAYA,deniz.yildiz@gmail.com,N/A,N/A,"Çankaya, Ankara / 06540",Elektronik,N/A,2.0,1,havale
+,UNKNOWN,,invalid_phone,28/02/2024,"Muratpaşa, Antalya",ELECTRONICS,0.00,100000,CANCELLED,credit card
+ORD-1079,emre KOC,emre.koc@gmail.com,+905423332211,2024-04-05,"Yıldırım, Bursa - 16300",ELECTRONICS,0.00,1,pending,crypto
+ORD-1080,Zeynep  AKSOY,,5321234567,15/01/2024,N/A,sports,FREE,1,COMPLETED,N/A
+ORD-1081,Ayşe Demir,zeynep.aksoy@outlook.com,5321234567,2024-13-45,  ,Spor & Outdoor,"1250,50 €",3,3,crypto
+ORD-1082,Deniz Yildiz,elif.sahin@gmail.com,N/A,,N/A,FASHION, 899.99 TL ,3,shipped,cash_on_delivery
+ORD-1083,  Mustafa Aydin  ,invalid_email_format,0533 987 65 43,15-01-2024,  ,home_decor, 899.99 TL ,,COMPLETED,cash_on_delivery
+#1084,  ahmet YILMAZ ,burak.celik@gmail.com,5321234567,"Jan 15, 2024",  ,home_decor,FREE,0,pending,havale
+ORD-1085,,deniz.yildiz@gmail.com,+905423332211,2024/03/10,Kadıköy / İstanbul / 34710,Book,-100.00,2.0,CANCELLED,Kapıda Ödeme
+ORD-1086,BURAK CELIK,fatma@domain,0(555) 444 33 22,N/A,  ,sports,75.5,10,returned,CREDIT_CARD
+ORD-1087,Ayşe Demir,elif.sahin@gmail.com,0(555) 444 33 22,28/02/2024,"Muratpaşa, Antalya",Ev & Yaşam,9999999.99,,pending,N/A
+1088,fatma ARSLAN,fatma@domain,5321234567,28/02/2024,N/A,fashion,FREE,10,shipped,havale
+ORD-1089,elIF Sahin ,invalid_email_format,0533 987 65 43,N/A,"Muratpaşa, Antalya",fashion, 2500 TL ,NULL,3,BANK_TRANSFER
+ORD-1090,N/A,N/A,0500 000 00 00,15-01-2024,"Yıldırım, Bursa - 16300",Book,0.00,0,2,BANK_TRANSFER
+#1091,elIF Sahin ,invalid_email_format,5321234567,"Jan 15, 2024",Nilüfer / Bursa / 16140,electronics,75.5,NULL,3,havale
+ORD-1092,  ahmet YILMAZ ,ahmet.yilmaz@gmail.com,,15-01-2024,Konak - İzmir - 35000,sports, 899.99 TL ,2.0,1,EFT/Havale
+ORD-1093,elIF Sahin ,burak.celik@gmail.com,0500 000 00 00,"Feb 28, 2024",Odunpazarı - Eskişehir,Elektronik,"$1,250.50",0,returned,credit card
+ORD-1094,  Mustafa Aydin  ,ayse_demir@hotmail.com,invalid_phone,"Feb 28, 2024","Çankaya, Ankara / 06540",Kitap,9999999.99,100000,1,cc
+ORD-1095,mehmet KAYA,emre.koc@gmail.com,N/A,15-01-2024,"Çankaya, Ankara / 06540",home_decor, 2500 TL ,NULL,COMPLETED,EFT/Havale
+ORD-1096,UNKNOWN,emre.koc@gmail.com,N/A,2024.01.15,N/A,Giyim, 899.99 TL ,10,shipped,EFT/Havale
+ORD-1097,Zeynep  AKSOY,elif.sahin@gmail.com,N/A,9999-99-99,Kadıköy / İstanbul / 34710,Kitap,75.5,2.0,CANCELLED,BANK_TRANSFER
+#1098,elIF Sahin ,,0533 987 65 43,"Jan 15, 2024","Muratpaşa, Antalya",Elektronik,"15,000.00",2.0,3,CREDIT_CARD
+1099,Zeynep  AKSOY,burak.celik@gmail.com,N/A,"Feb 28, 2024",Nilüfer / Bursa / 16140,electronics,-100.00,0,shipped,N/A
+ORD-0099,Ayşe Demir,,0(555) 444 33 22,15-01-2024,"Yıldırım, Bursa - 16300",sports,-100.00,3,2,crypto
+ORD-1101,N/A,,532-111-2233,15-01-2024,Konak - İzmir - 35000,ELECTRONICS,"$1,250.50",-5,shipped,EFT/Havale
+ORD-1102,emre KOC,deniz.yildiz@gmail.com,+905423332211,"Feb 28, 2024","Çankaya, Ankara / 06540",FASHION,75.5,0,COMPLETED,havale
+ORD-1103,fatma ARSLAN,fatma@domain,0500 000 00 00,"Feb 28, 2024","Çankaya, Ankara / 06540",Kitap,"$1,250.50",3,pending,EFT/Havale
+,elIF Sahin ,ahmet.yilmaz@gmail.com,0533 987 65 43,2024.01.15,"Yıldırım, Bursa - 16300",Kitap,"$1,250.50",100000,shipped,EFT/Havale
+#1105,  ahmet YILMAZ ,emre.koc@gmail.com,532-111-2233,"Feb 28, 2024",N/A,sports, 899.99 TL ,0,3,EFT/Havale
+ORD-1106,Zeynep  AKSOY,,0500 000 00 00,15/01/2024,  ,fashion,$45.90,5,pending,credit card
+ORD-1107,  Mustafa Aydin  ,mehmet@yahoo,5321234567,28/02/2024,  ,Ev & Yaşam,9999999.99,3,99,CREDIT_CARD
+ORD-1108,BURAK CELIK,ayse_demir@hotmail.com,5321234567,15-01-2024,Odunpazarı - Eskişehir,ELECTRONICS,$45.90,NULL,1,crypto
+ORD-1109,BURAK CELIK,zeynep.aksoy@outlook.com,+90 532 123 45 67,2024.01.15,N/A,fashion,0.00,10,returned,CREDIT_CARD
+1110,N/A,elif.sahin@gmail.com,,"Jan 15, 2024",Nilüfer / Bursa / 16140,FASHION,75.5,10,2,CREDIT_CARD
+ORD-1111,Deniz Yildiz,deniz.yildiz@gmail.com,0(555) 444 33 22,N/A,Konak - İzmir - 35000,Ev & Yaşam,"15,000.00",1,99,Kapıda Ödeme
+#1112,Ayşe Demir,invalid_email_format,0533 987 65 43,"Feb 28, 2024","Çankaya, Ankara / 06540",sports,"1250,50 €",10,shipped,crypto
+ORD-1113,emre KOC,elif.sahin@gmail.com,invalid_phone,2024-04-05,  ,FASHION,-100.00,10,99,cc
+ORD-1114,Zeynep  AKSOY,invalid_email_format,N/A,2024/03/10,Konak - İzmir - 35000,ELECTRONICS,N/A,3,pending,crypto
+ORD-1115,elIF Sahin ,ahmet.yilmaz@gmail.com,+905423332211,N/A,Nilüfer / Bursa / 16140,Kitap,0.00,100000,returned,cc
+ORD-1116,BURAK CELIK,fatma@domain,0500 000 00 00,2024-02-28,Odunpazarı - Eskişehir,Book,"15,000.00",3,returned,cash_on_delivery
+,  Mustafa Aydin  ,invalid_email_format,0(555) 444 33 22,9999-99-99,  Sarıyer / İstanbul  ,home_decor,$45.90,1,pending,N/A
+ORD-1118,emre KOC,emre.koc@gmail.com,invalid_phone,28/02/2024,Konak - İzmir - 35000,FASHION,"$1,250.50",-5,99,EFT/Havale
+#1119,CANER ERKIN,ayse_demir@hotmail.com,0500 000 00 00,15/01/2024,N/A,FASHION,"$1,250.50",-5,COMPLETED,cc
+ORD-1120,Ayşe Demir,burak.celik@gmail.com,+905423332211,2024-02-28,"Yıldırım, Bursa - 16300",Spor & Outdoor,$45.90,100000,2,cash_on_delivery
+1121,  Mustafa Aydin  ,,,28/02/2024,Odunpazarı - Eskişehir,sports,75.5,10,99,CREDIT_CARD
+ORD-1122,UNKNOWN,ayse_demir@hotmail.com,0(555) 444 33 22,2024-13-45,Nilüfer / Bursa / 16140,home_decor,75.5,2.0,COMPLETED,credit card
+ORD-1123,Selin Ozturk ,,0533 987 65 43,"Feb 28, 2024",Konak - İzmir - 35000,Spor & Outdoor,N/A,1,1,cash_on_delivery
+ORD-1124,Selin Ozturk ,ahmet.yilmaz@gmail.com,+905423332211,2024-02-28,Odunpazarı - Eskişehir,Giyim,"1250,50 €",ten,99,Kapıda Ödeme
+ORD-1125,UNKNOWN,,532-111-2233,"Jan 15, 2024",Konak - İzmir - 35000,ELECTRONICS,0.00,3,CANCELLED,N/A
+#1126,,deniz.yildiz@gmail.com,532-111-2233,2024.01.15,  ,sports,N/A,10,shipped,CREDIT_CARD
+ORD-1127,,emre.koc@gmail.com,0500 000 00 00,15-01-2024,N/A,Elektronik, 2500 TL ,10,pending,EFT/Havale
+ORD-1128,elIF Sahin ,,invalid_phone,N/A,Nilüfer / Bursa / 16140,FASHION,N/A,ten,COMPLETED,N/A
+ORD-1129,Ayşe Demir,invalid_email_format,invalid_phone,9999-99-99,Odunpazarı - Eskişehir,Kitap,N/A,0,1,Kapıda Ödeme
+,elIF Sahin ,ahmet.yilmaz@gmail.com,N/A,2024-04-05,Kadıköy / İstanbul / 34710,Kitap,75.5,10,shipped,BANK_TRANSFER
+ORD-1131,UNKNOWN,emre.koc@gmail.com,5321234567,2024.01.15,"Muratpaşa, Antalya",Kitap,N/A,100000,3,credit card
+1132,,,+90 532 123 45 67,15-01-2024,  ,electronics,0.00,5,3,credit card
+#1133,,elif.sahin@gmail.com,5321234567,N/A,  Sarıyer / İstanbul  ,Elektronik,-100.00,-5,99,cash_on_delivery
+ORD-1134,fatma ARSLAN,fatma@domain,+905423332211,2024-04-05,Konak - İzmir - 35000,Ev & Yaşam, 899.99 TL ,0,pending,credit card
+ORD-1135,BURAK CELIK,ayse_demir@hotmail.com,532-111-2233,,"Muratpaşa, Antalya",sports,75.5,100000,COMPLETED,crypto
+ORD-1136,CANER ERKIN,ayse_demir@hotmail.com,invalid_phone,2024-01-15,Nilüfer / Bursa / 16140,Book, 2500 TL ,10,pending,havale
+ORD-1137,UNKNOWN,zeynep.aksoy@outlook.com,5321234567,15/01/2024,"Muratpaşa, Antalya",FASHION,"$1,250.50",,99,cash_on_delivery
+ORD-1138,,deniz.yildiz@gmail.com,0(555) 444 33 22,2024-13-45,"Çankaya, Ankara / 06540",sports, 899.99 TL ,0,COMPLETED,credit card
+ORD-1139,mehmet KAYA,ahmet.yilmaz@gmail.com,+90 532 123 45 67,15-01-2024,  ,ELECTRONICS, 2500 TL ,ten,99,cc
+#1140,Zeynep  AKSOY,burak.celik@gmail.com,5321234567,2024-13-45,N/A,Giyim,0.00,-5,COMPLETED,credit card
+ORD-1141,  Mustafa Aydin  ,burak.celik@gmail.com,N/A,28/02/2024,Nilüfer / Bursa / 16140,electronics,75.5,5,CANCELLED,N/A
+ORD-1142,BURAK CELIK,invalid_email_format,5321234567,15/01/2024,Odunpazarı - Eskişehir,Book,9999999.99,5,1,Kapıda Ödeme
+1143,elIF Sahin ,invalid_email_format,0533 987 65 43,2024-04-05,  ,ELECTRONICS,9999999.99,ten,1,CREDIT_CARD
+ORD-1144,Selin Ozturk ,caner@company.co.tr,0(555) 444 33 22,"Jan 15, 2024","Yıldırım, Bursa - 16300",home_decor, 2500 TL ,NULL,CANCELLED,EFT/Havale
+ORD-1145,N/A,invalid_email_format,5321234567,,Konak - İzmir - 35000,Kitap,"$1,250.50",0,3,cc
+ORD-1146,fatma ARSLAN,elif.sahin@gmail.com,532-111-2233,15/01/2024,Kadıköy / İstanbul / 34710,Elektronik,"$1,250.50",5,CANCELLED,EFT/Havale
+#1147,CANER ERKIN,ahmet.yilmaz@gmail.com,532-111-2233,15-01-2024,Kadıköy / İstanbul / 34710,Elektronik,75.5,3,99,credit card
+ORD-1148,emre KOC,ayse_demir@hotmail.com,0500 000 00 00,"Feb 28, 2024",Odunpazarı - Eskişehir,Book,0.00,2.0,returned,crypto
+ORD-1149,N/A,deniz.yildiz@gmail.com,+90 532 123 45 67,N/A,N/A,Ev & Yaşam, 899.99 TL ,100000,1,CREDIT_CARD
+ORD-00149,BURAK CELIK,zeynep.aksoy@outlook.com,invalid_phone,2024-13-45,"Çankaya, Ankara / 06540",FASHION,75.5,10,2,credit card
+ORD-1151,CANER ERKIN,deniz.yildiz@gmail.com,532-111-2233,15/01/2024,Konak - İzmir - 35000,Ev & Yaşam,0.00,100000,99,cash_on_delivery
+ORD-1152,Zeynep  AKSOY,deniz.yildiz@gmail.com,,15-01-2024,  ,Book,0.00,3,2,credit card
+ORD-1153,  Mustafa Aydin  ,,,N/A,"Muratpaşa, Antalya",Giyim, 899.99 TL ,ten,COMPLETED,cash_on_delivery
+#1154,  Mustafa Aydin  ,burak.celik@gmail.com,invalid_phone,28/02/2024,"Çankaya, Ankara / 06540",fashion,$45.90,5,shipped,cash_on_delivery
+ORD-1155,mehmet KAYA,,0500 000 00 00,15/01/2024,"Çankaya, Ankara / 06540",ELECTRONICS, 2500 TL ,3,2,cash_on_delivery
+,Selin Ozturk ,mehmet@yahoo,,2024-01-15,"Yıldırım, Bursa - 16300",Book,"15,000.00",5,2,Kapıda Ödeme
+ORD-1157,CANER ERKIN,,invalid_phone,2024-04-05,Kadıköy / İstanbul / 34710,Ev & Yaşam,0.00,0,pending,credit card
+ORD-1158,UNKNOWN,fatma@domain,0(555) 444 33 22,"Jan 15, 2024",  ,home_decor, 2500 TL ,5,99,cash_on_delivery
+ORD-1159,Ayşe Demir,emre.koc@gmail.com,+905423332211,9999-99-99,"Muratpaşa, Antalya",Giyim,"15,000.00",,99,CREDIT_CARD
+ORD-1160,UNKNOWN,,+905423332211,2024-01-15,Konak - İzmir - 35000,Ev & Yaşam,75.5,0,pending,cash_on_delivery
+#1161,  ahmet YILMAZ ,mehmet@yahoo,532-111-2233,9999-99-99,  Sarıyer / İstanbul  ,ELECTRONICS,"1250,50 €",100000,1,credit card
+ORD-1162,emre KOC,fatma@domain,0(555) 444 33 22,28/02/2024,  Sarıyer / İstanbul  ,FASHION,FREE,-5,pending,havale
+ORD-1163,emre KOC,caner@company.co.tr,N/A,9999-99-99,"Çankaya, Ankara / 06540",electronics,"1250,50 €",-5,1,credit card
+ORD-1164,elIF Sahin ,burak.celik@gmail.com,invalid_phone,"Feb 28, 2024","Yıldırım, Bursa - 16300",FASHION,$45.90,0,CANCELLED,crypto
+1165,Ayşe Demir,caner@company.co.tr,invalid_phone,15/01/2024,Nilüfer / Bursa / 16140,sports,9999999.99,,returned,crypto
+ORD-1166,Deniz Yildiz,elif.sahin@gmail.com,+90 532 123 45 67,2024.01.15,  Sarıyer / İstanbul  ,Kitap,"$1,250.50",1,CANCELLED,havale
+ORD-1167,N/A,emre.koc@gmail.com,532-111-2233,,Nilüfer / Bursa / 16140,Ev & Yaşam,FREE,2.0,1,N/A
+#1168,emre KOC,zeynep.aksoy@outlook.com,532-111-2233,"Jan 15, 2024",  Sarıyer / İstanbul  ,Book,75.5,ten,99,crypto
+,  Mustafa Aydin  ,,5321234567,15/01/2024,  Sarıyer / İstanbul  ,Spor & Outdoor,"$1,250.50",3,1,N/A
+ORD-1170,,ayse_demir@hotmail.com,5321234567,9999-99-99,  Sarıyer / İstanbul  ,Kitap,$45.90,100000,COMPLETED,havale
+ORD-1171,Ayşe Demir,zeynep.aksoy@outlook.com,+90 532 123 45 67,2024-02-28,Konak - İzmir - 35000,Kitap, 899.99 TL ,5,2,Kapıda Ödeme
+ORD-1172,  Mustafa Aydin  ,ayse_demir@hotmail.com,0(555) 444 33 22,28/02/2024,"Yıldırım, Bursa - 16300",Giyim,"15,000.00",2.0,COMPLETED,havale
+ORD-1173,emre KOC,caner@company.co.tr,0(555) 444 33 22,2024-02-28,Konak - İzmir - 35000,ELECTRONICS,"15,000.00",100000,2,crypto
+ORD-1174,fatma ARSLAN,invalid_email_format,5321234567,2024-02-28,Konak - İzmir - 35000,home_decor, 2500 TL ,-5,shipped,BANK_TRANSFER
+#1175,mehmet KAYA,deniz.yildiz@gmail.com,532-111-2233,,"Çankaya, Ankara / 06540",Elektronik,9999999.99,10,returned,EFT/Havale
+1176,Selin Ozturk ,deniz.yildiz@gmail.com,0500 000 00 00,2024-13-45,"Yıldırım, Bursa - 16300",sports,9999999.99,,pending,cash_on_delivery
+ORD-1177,mehmet KAYA,burak.celik@gmail.com,0533 987 65 43,"Feb 28, 2024",  ,sports,N/A,0,1,cash_on_delivery
+ORD-1178,fatma ARSLAN,ayse_demir@hotmail.com,+905423332211,"Feb 28, 2024",  ,electronics,"$1,250.50",5,shipped,credit card
+ORD-1179,Deniz Yildiz,ayse_demir@hotmail.com,N/A,9999-99-99,N/A,Giyim, 899.99 TL ,,99,CREDIT_CARD
+ORD-1180,BURAK CELIK,emre.koc@gmail.com,N/A,2024-13-45,"Muratpaşa, Antalya",fashion,0.00,10,99,cc
+ORD-1181,  ahmet YILMAZ ,burak.celik@gmail.com,0533 987 65 43,,Odunpazarı - Eskişehir,Spor & Outdoor, 2500 TL ,NULL,3,CREDIT_CARD
+#1182,N/A,N/A,0500 000 00 00,"Feb 28, 2024",N/A,Book,0.00,-5,pending,cash_on_delivery
+ORD-1183,,elif.sahin@gmail.com,invalid_phone,28/02/2024,Odunpazarı - Eskişehir,sports,0.00,1,pending,credit card
+ORD-1184,CANER ERKIN,ayse_demir@hotmail.com,,2024-13-45,  Sarıyer / İstanbul  ,Ev & Yaşam,N/A,100000,3,cash_on_delivery
+ORD-1185,Ayşe Demir,deniz.yildiz@gmail.com,532-111-2233,2024-02-28,Nilüfer / Bursa / 16140,sports,75.5,100000,COMPLETED,cc
+ORD-1186,UNKNOWN,N/A,0533 987 65 43,15-01-2024,N/A,Giyim,9999999.99,5,3,crypto
+1187,Ayşe Demir,,invalid_phone,2024/03/10,Odunpazarı - Eskişehir,electronics,FREE,0,3,BANK_TRANSFER
+ORD-1188,CANER ERKIN,emre.koc@gmail.com,0500 000 00 00,2024.01.15,"Muratpaşa, Antalya",Elektronik,"1250,50 €",2.0,shipped,credit card
+#1189,fatma ARSLAN,emre.koc@gmail.com,,2024-04-05,N/A,electronics,9999999.99,5,3,EFT/Havale
+ORD-1190,Zeynep  AKSOY,mehmet@yahoo,532-111-2233,"Jan 15, 2024","Yıldırım, Bursa - 16300",Elektronik,75.5,10,1,Kapıda Ödeme
+ORD-1191,CANER ERKIN,,0(555) 444 33 22,"Feb 28, 2024","Yıldırım, Bursa - 16300",Ev & Yaşam,75.5,10,CANCELLED,crypto
+ORD-1192,N/A,elif.sahin@gmail.com,0500 000 00 00,2024-04-05,"Muratpaşa, Antalya",fashion,9999999.99,,returned,N/A
+ORD-1193,Selin Ozturk ,elif.sahin@gmail.com,invalid_phone,2024/03/10,N/A,Giyim,"1250,50 €",ten,3,havale
+ORD-1194,  ahmet YILMAZ ,,0500 000 00 00,2024-04-05,Odunpazarı - Eskişehir,Book, 2500 TL ,NULL,2,havale
+,Ayşe Demir,emre.koc@gmail.com,532-111-2233,15-01-2024,  ,Book,"1250,50 €",3,2,BANK_TRANSFER
+#1196,  Mustafa Aydin  ,burak.celik@gmail.com,5321234567,2024-01-15,  Sarıyer / İstanbul  ,electronics,$45.90,NULL,pending,BANK_TRANSFER
+ORD-1197,Zeynep  AKSOY,ayse_demir@hotmail.com,5321234567,2024.01.15,Kadıköy / İstanbul / 34710,fashion, 2500 TL ,100000,pending,cc
+1198,mehmet KAYA,ahmet.yilmaz@gmail.com,+905423332211,2024-04-05,  ,Spor & Outdoor,"1250,50 €",10,returned,EFT/Havale
+ORD-1199,  ahmet YILMAZ ,ayse_demir@hotmail.com,+90 532 123 45 67,15-01-2024,"Muratpaşa, Antalya",Elektronik,"15,000.00",,99,Kapıda Ödeme
+ORD-00199,Ayşe Demir,emre.koc@gmail.com,+905423332211,2024.01.15,Nilüfer / Bursa / 16140,ELECTRONICS,"$1,250.50",ten,COMPLETED,EFT/Havale
+ORD-1201,BURAK CELIK,ayse_demir@hotmail.com,0533 987 65 43,2024-04-05,  ,Kitap,"15,000.00",1,99,EFT/Havale
+ORD-1202,N/A,N/A,532-111-2233,15-01-2024,  Sarıyer / İstanbul  ,electronics,0.00,5,CANCELLED,EFT/Havale
+#1203,Zeynep  AKSOY,mehmet@yahoo,0533 987 65 43,2024/03/10,Odunpazarı - Eskişehir,ELECTRONICS,"15,000.00",NULL,99,crypto
+ORD-1204,fatma ARSLAN,ahmet.yilmaz@gmail.com,invalid_phone,2024-04-05,  ,electronics,9999999.99,3,pending,havale
+ORD-1205,emre KOC,ahmet.yilmaz@gmail.com,5321234567,,"Çankaya, Ankara / 06540",fashion,-100.00,100000,2,EFT/Havale
+ORD-1206,emre KOC,emre.koc@gmail.com,5321234567,"Jan 15, 2024",Kadıköy / İstanbul / 34710,fashion,"15,000.00",5,3,N/A
+ORD-1207,emre KOC,burak.celik@gmail.com,532-111-2233,,Konak - İzmir - 35000,ELECTRONICS,75.5,10,1,havale
+,N/A,ahmet.yilmaz@gmail.com,0(555) 444 33 22,2024-01-15,Odunpazarı - Eskişehir,Ev & Yaşam,"15,000.00",3,99,N/A
+1209,elIF Sahin ,ahmet.yilmaz@gmail.com,0(555) 444 33 22,15-01-2024,Odunpazarı - Eskişehir,electronics,9999999.99,5,shipped,credit card
+#1210,Selin Ozturk ,caner@company.co.tr,invalid_phone,28/02/2024,  ,Giyim,FREE,-5,returned,N/A
+ORD-1211,CANER ERKIN,emre.koc@gmail.com,,15-01-2024,"Çankaya, Ankara / 06540",Spor & Outdoor,$45.90,2.0,COMPLETED,EFT/Havale
+ORD-1212,  Mustafa Aydin  ,mehmet@yahoo,,15-01-2024,Odunpazarı - Eskişehir,ELECTRONICS, 2500 TL ,5,shipped,havale
+ORD-1213,BURAK CELIK,deniz.yildiz@gmail.com,invalid_phone,"Jan 15, 2024",  ,fashion, 899.99 TL ,1,pending,EFT/Havale
+ORD-1214,Zeynep  AKSOY,elif.sahin@gmail.com,+90 532 123 45 67,15/01/2024,  Sarıyer / İstanbul  ,fashion,"15,000.00",100000,3,CREDIT_CARD
+ORD-1215,mehmet KAYA,deniz.yildiz@gmail.com,0500 000 00 00,2024-01-15,Konak - İzmir - 35000,ELECTRONICS,-100.00,100000,pending,cash_on_delivery
+ORD-1216,Zeynep  AKSOY,deniz.yildiz@gmail.com,+90 532 123 45 67,9999-99-99,Konak - İzmir - 35000,sports, 899.99 TL ,5,pending,N/A
+#1217,Selin Ozturk ,ayse_demir@hotmail.com,N/A,"Jan 15, 2024",N/A,fashion,$45.90,5,shipped,BANK_TRANSFER
+ORD-1218,Ayşe Demir,ahmet.yilmaz@gmail.com,532-111-2233,"Feb 28, 2024",N/A,Giyim,"15,000.00",2.0,shipped,havale
+ORD-1219,emre KOC,burak.celik@gmail.com,0(555) 444 33 22,9999-99-99,Nilüfer / Bursa / 16140,Spor & Outdoor, 899.99 TL ,ten,2,cc
+1220,  Mustafa Aydin  ,ayse_demir@hotmail.com,0500 000 00 00,"Jan 15, 2024",  ,ELECTRONICS,9999999.99,5,pending,credit card
+,fatma ARSLAN,fatma@domain,+905423332211,15-01-2024,Konak - İzmir - 35000,Spor & Outdoor,75.5,100000,3,cash_on_delivery
+ORD-1222,fatma ARSLAN,invalid_email_format,0533 987 65 43,2024.01.15,Konak - İzmir - 35000,home_decor, 899.99 TL ,1,pending,crypto
+ORD-1223,UNKNOWN,caner@company.co.tr,0500 000 00 00,,N/A,Elektronik,0.00,2.0,2,havale
+#1224,Zeynep  AKSOY,N/A,0500 000 00 00,2024/03/10,  Sarıyer / İstanbul  ,Giyim,0.00,2.0,3,cash_on_delivery
+ORD-1225,Deniz Yildiz,ayse_demir@hotmail.com,0500 000 00 00,"Feb 28, 2024",N/A,fashion,"1250,50 €",NULL,3,cc
+ORD-1226,Zeynep  AKSOY,fatma@domain,+90 532 123 45 67,2024-04-05,"Çankaya, Ankara / 06540",Book,"1250,50 €",0,3,cc
+ORD-1227,CANER ERKIN,N/A,0(555) 444 33 22,2024-02-28,N/A,Ev & Yaşam, 2500 TL ,0,CANCELLED,crypto
+ORD-1228,elIF Sahin ,mehmet@yahoo,+905423332211,9999-99-99,N/A,ELECTRONICS,"15,000.00",100000,3,EFT/Havale
+ORD-1229,UNKNOWN,mehmet@yahoo,532-111-2233,2024-13-45,"Yıldırım, Bursa - 16300",Spor & Outdoor,0.00,5,1,CREDIT_CARD
+ORD-1230,Ayşe Demir,ahmet.yilmaz@gmail.com,N/A,15-01-2024,"Muratpaşa, Antalya",Kitap,$45.90,,1,N/A
+#1231,,,,15-01-2024,Nilüfer / Bursa / 16140,FASHION,-100.00,100000,COMPLETED,havale
+ORD-1232,BURAK CELIK,ayse_demir@hotmail.com,+90 532 123 45 67,"Jan 15, 2024",  ,Giyim, 899.99 TL ,10,CANCELLED,cash_on_delivery
+ORD-1233,UNKNOWN,mehmet@yahoo,5321234567,2024-04-05,Odunpazarı - Eskişehir,Spor & Outdoor,FREE,3,3,cash_on_delivery
+,fatma ARSLAN,fatma@domain,0533 987 65 43,2024-02-28,"Muratpaşa, Antalya",FASHION, 2500 TL ,0,returned,BANK_TRANSFER
+ORD-1235,mehmet KAYA,ayse_demir@hotmail.com,+90 532 123 45 67,15-01-2024,  Sarıyer / İstanbul  ,Kitap,$45.90,ten,3,cash_on_delivery
+ORD-1236,,deniz.yildiz@gmail.com,5321234567,2024.01.15,Konak - İzmir - 35000,FASHION,"15,000.00",10,returned,havale
+ORD-1237,BURAK CELIK,ahmet.yilmaz@gmail.com,0533 987 65 43,28/02/2024,N/A,FASHION,-100.00,ten,pending,CREDIT_CARD
+#1238,  ahmet YILMAZ ,elif.sahin@gmail.com,0500 000 00 00,9999-99-99,  ,Ev & Yaşam,"15,000.00",1,2,Kapıda Ödeme
+ORD-1239,mehmet KAYA,elif.sahin@gmail.com,5321234567,,  Sarıyer / İstanbul  ,fashion,"$1,250.50",3,1,EFT/Havale
+ORD-1240,fatma ARSLAN,invalid_email_format,5321234567,2024/03/10,Nilüfer / Bursa / 16140,ELECTRONICS,$45.90,NULL,returned,crypto
+ORD-1241,elIF Sahin ,deniz.yildiz@gmail.com,N/A,15/01/2024,Konak - İzmir - 35000,ELECTRONICS,$45.90,5,pending,crypto
+1242,CANER ERKIN,emre.koc@gmail.com,532-111-2233,2024.01.15,"Yıldırım, Bursa - 16300",Book,$45.90,NULL,1,CREDIT_CARD
+ORD-1243,  ahmet YILMAZ ,mehmet@yahoo,5321234567,,  ,Book, 899.99 TL ,-5,99,cc
+ORD-1244,CANER ERKIN,deniz.yildiz@gmail.com,5321234567,"Jan 15, 2024",  Sarıyer / İstanbul  ,Kitap,75.5,0,pending,crypto
+#1245,  Mustafa Aydin  ,fatma@domain,,"Feb 28, 2024","Yıldırım, Bursa - 16300",Ev & Yaşam, 899.99 TL ,1,pending,cash_on_delivery
+ORD-1246,Deniz Yildiz,ayse_demir@hotmail.com,invalid_phone,9999-99-99,Nilüfer / Bursa / 16140,Spor & Outdoor,75.5,100000,1,EFT/Havale
+,BURAK CELIK,elif.sahin@gmail.com,N/A,9999-99-99,"Muratpaşa, Antalya",Spor & Outdoor,"$1,250.50",,returned,cc
+ORD-1248,fatma ARSLAN,,N/A,,  Sarıyer / İstanbul  ,Elektronik,9999999.99,ten,1,EFT/Havale
+ORD-1249,emre KOC,ayse_demir@hotmail.com,0(555) 444 33 22,2024-01-15,  ,fashion,$45.90,-5,COMPLETED,BANK_TRANSFER
+ORD-1250,Zeynep  AKSOY,fatma@domain,N/A,"Feb 28, 2024",Kadıköy / İstanbul / 34710,Spor & Outdoor,"1250,50 €",NULL,CANCELLED,crypto
+ORD-1251,CANER ERKIN,,0500 000 00 00,2024/03/10,  Sarıyer / İstanbul  ,fashion,"1250,50 €",10,99,cash_on_delivery
+#1252,fatma ARSLAN,caner@company.co.tr,+905423332211,9999-99-99,  ,home_decor,-100.00,0,99,havale
+1253,N/A,elif.sahin@gmail.com,+905423332211,N/A,"Muratpaşa, Antalya",Spor & Outdoor,75.5,10,pending,N/A
+ORD-1254,CANER ERKIN,fatma@domain,+905423332211,15-01-2024,"Çankaya, Ankara / 06540",Kitap,9999999.99,NULL,COMPLETED,Kapıda Ödeme
+ORD-1255,  Mustafa Aydin  ,caner@company.co.tr,532-111-2233,15-01-2024,Kadıköy / İstanbul / 34710,Ev & Yaşam,75.5,2.0,pending,N/A
+ORD-1256,Deniz Yildiz,elif.sahin@gmail.com,0500 000 00 00,2024.01.15,"Muratpaşa, Antalya",Book,N/A,NULL,shipped,cc
+ORD-1257,Ayşe Demir,deniz.yildiz@gmail.com,N/A,2024.01.15,"Muratpaşa, Antalya",electronics,9999999.99,NULL,CANCELLED,BANK_TRANSFER
+ORD-1258,  ahmet YILMAZ ,ayse_demir@hotmail.com,invalid_phone,2024-02-28,  ,ELECTRONICS,9999999.99,-5,1,crypto
+#1259,,mehmet@yahoo,invalid_phone,2024-13-45,  ,FASHION,9999999.99,ten,shipped,cash_on_delivery
+,elIF Sahin ,,+90 532 123 45 67,,"Çankaya, Ankara / 06540",sports,0.00,ten,99,CREDIT_CARD
+ORD-1261,,mehmet@yahoo,invalid_phone,2024-04-05,Konak - İzmir - 35000,electronics,$45.90,10,3,havale
+ORD-1262,,ahmet.yilmaz@gmail.com,+90 532 123 45 67,15-01-2024,"Yıldırım, Bursa - 16300",Kitap, 2500 TL ,5,shipped,N/A
+ORD-1263,Deniz Yildiz,fatma@domain,,"Feb 28, 2024",Konak - İzmir - 35000,Book, 899.99 TL ,0,CANCELLED,credit card
+1264,CANER ERKIN,mehmet@yahoo,0500 000 00 00,2024-13-45,Nilüfer / Bursa / 16140,Spor & Outdoor,"1250,50 €",1,pending,havale
+ORD-1265,UNKNOWN,,0(555) 444 33 22,"Jan 15, 2024","Yıldırım, Bursa - 16300",sports,$45.90,3,99,cash_on_delivery
+#1266,Ayşe Demir,zeynep.aksoy@outlook.com,0533 987 65 43,"Jan 15, 2024",Konak - İzmir - 35000,FASHION,FREE,ten,1,havale
+ORD-1267,Zeynep  AKSOY,invalid_email_format,0500 000 00 00,,Nilüfer / Bursa / 16140,fashion,N/A,,1,havale
+ORD-1268,Deniz Yildiz,caner@company.co.tr,0(555) 444 33 22,2024-01-15,"Çankaya, Ankara / 06540",FASHION,N/A,-5,COMPLETED,crypto
+ORD-1269,,N/A,+905423332211,N/A,"Çankaya, Ankara / 06540",sports,N/A,5,CANCELLED,BANK_TRANSFER
+ORD-1270,mehmet KAYA,burak.celik@gmail.com,532-111-2233,"Feb 28, 2024","Yıldırım, Bursa - 16300",fashion,$45.90,NULL,returned,crypto
+ORD-1271,Selin Ozturk ,,0(555) 444 33 22,,"Muratpaşa, Antalya",sports,0.00,2.0,99,N/A
+ORD-1272,fatma ARSLAN,N/A,5321234567,15/01/2024,"Yıldırım, Bursa - 16300",ELECTRONICS,"$1,250.50",NULL,99,BANK_TRANSFER
+#1273,UNKNOWN,fatma@domain,532-111-2233,"Jan 15, 2024",Odunpazarı - Eskişehir,Book, 899.99 TL ,2.0,CANCELLED,EFT/Havale
+ORD-1274,BURAK CELIK,ayse_demir@hotmail.com,,"Feb 28, 2024",Kadıköy / İstanbul / 34710,FASHION,"1250,50 €",NULL,COMPLETED,N/A
+1275,UNKNOWN,ahmet.yilmaz@gmail.com,,"Feb 28, 2024",Nilüfer / Bursa / 16140,Spor & Outdoor,"$1,250.50",3,shipped,CREDIT_CARD
+ORD-1276,emre KOC,invalid_email_format,N/A,15/01/2024,Kadıköy / İstanbul / 34710,Giyim,FREE,2.0,99,CREDIT_CARD
+ORD-1277,,ayse_demir@hotmail.com,0500 000 00 00,2024-01-15,Nilüfer / Bursa / 16140,Giyim,"1250,50 €",-5,COMPLETED,cash_on_delivery
+ORD-1278,,zeynep.aksoy@outlook.com,0500 000 00 00,2024-04-05,  Sarıyer / İstanbul  ,Giyim, 2500 TL ,100000,99,cc
+ORD-1279,Deniz Yildiz,caner@company.co.tr,0533 987 65 43,"Jan 15, 2024",N/A,Giyim,"15,000.00",-5,CANCELLED,CREDIT_CARD
+#1280,Selin Ozturk ,ahmet.yilmaz@gmail.com,+905423332211,"Feb 28, 2024",N/A,Giyim,"15,000.00",3,CANCELLED,BANK_TRANSFER
+ORD-1281,BURAK CELIK,caner@company.co.tr,532-111-2233,15-01-2024,"Muratpaşa, Antalya",Spor & Outdoor, 2500 TL ,1,COMPLETED,EFT/Havale
+ORD-1282,Selin Ozturk ,ahmet.yilmaz@gmail.com,0(555) 444 33 22,2024.01.15,"Çankaya, Ankara / 06540",ELECTRONICS,0.00,1,returned,EFT/Havale
+ORD-1283,Deniz Yildiz,N/A,+90 532 123 45 67,2024.01.15,Kadıköy / İstanbul / 34710,Giyim, 899.99 TL ,ten,99,BANK_TRANSFER
+ORD-1284,Selin Ozturk ,emre.koc@gmail.com,+90 532 123 45 67,"Jan 15, 2024",N/A,Ev & Yaşam,-100.00,,pending,EFT/Havale
+ORD-1285,UNKNOWN,emre.koc@gmail.com,5321234567,2024.01.15,Nilüfer / Bursa / 16140,Elektronik,9999999.99,NULL,CANCELLED,Kapıda Ödeme
+1286,elIF Sahin ,elif.sahin@gmail.com,+90 532 123 45 67,2024/03/10,"Yıldırım, Bursa - 16300",Spor & Outdoor,"1250,50 €",100000,COMPLETED,crypto
+#1287,BURAK CELIK,ahmet.yilmaz@gmail.com,5321234567,2024-13-45,  Sarıyer / İstanbul  ,Book,FREE,3,COMPLETED,cc
+ORD-1288,elIF Sahin ,zeynep.aksoy@outlook.com,532-111-2233,,N/A,FASHION,-100.00,ten,shipped,cc
+ORD-1289,Selin Ozturk ,burak.celik@gmail.com,+90 532 123 45 67,2024/03/10,  Sarıyer / İstanbul  ,Giyim,"15,000.00",NULL,3,Kapıda Ödeme
+ORD-1290,N/A,elif.sahin@gmail.com,0(555) 444 33 22,2024-02-28,"Çankaya, Ankara / 06540",FASHION,FREE,2.0,99,BANK_TRANSFER
+ORD-1291,  ahmet YILMAZ ,elif.sahin@gmail.com,invalid_phone,2024-13-45,"Yıldırım, Bursa - 16300",Kitap,"$1,250.50",2.0,CANCELLED,EFT/Havale
+ORD-1292,emre KOC,,,2024.01.15,  ,home_decor,FREE,0,1,BANK_TRANSFER
+ORD-1293,,invalid_email_format,0533 987 65 43,N/A,  ,home_decor,75.5,,CANCELLED,Kapıda Ödeme
+#1294,,invalid_email_format,,2024-02-28,Nilüfer / Bursa / 16140,Giyim, 899.99 TL ,NULL,pending,havale
+ORD-1295,elIF Sahin ,caner@company.co.tr,,"Feb 28, 2024",  ,ELECTRONICS,75.5,10,pending,BANK_TRANSFER
+ORD-1296,CANER ERKIN,caner@company.co.tr,invalid_phone,2024-01-15,"Yıldırım, Bursa - 16300",home_decor,75.5,-5,1,havale
+1297,fatma ARSLAN,deniz.yildiz@gmail.com,N/A,N/A,  Sarıyer / İstanbul  ,Ev & Yaşam,"1250,50 €",ten,pending,BANK_TRANSFER
+ORD-1298,Zeynep  AKSOY,deniz.yildiz@gmail.com,0(555) 444 33 22,"Feb 28, 2024",N/A,sports,9999999.99,5,shipped,N/A
+,emre KOC,,0500 000 00 00,"Feb 28, 2024",Konak - İzmir - 35000,Spor & Outdoor,FREE,-5,3,crypto
+ORD-1300,BURAK CELIK,mehmet@yahoo,,2024-13-45,Kadıköy / İstanbul / 34710,Book,"$1,250.50",2.0,1,CREDIT_CARD
+#1301,Zeynep  AKSOY,mehmet@yahoo,0(555) 444 33 22,15/01/2024,Konak - İzmir - 35000,electronics,-100.00,NULL,returned,cash_on_delivery
+ORD-1302,  ahmet YILMAZ ,deniz.yildiz@gmail.com,N/A,"Feb 28, 2024",  ,electronics,"$1,250.50",NULL,99,Kapıda Ödeme
+ORD-1303,  ahmet YILMAZ ,ahmet.yilmaz@gmail.com,,N/A,Nilüfer / Bursa / 16140,Book,N/A,1,99,Kapıda Ödeme
+ORD-1304,Selin Ozturk ,mehmet@yahoo,0533 987 65 43,15/01/2024,N/A,Elektronik,-100.00,ten,99,havale
+ORD-1305,  Mustafa Aydin  ,caner@company.co.tr,+905423332211,,  Sarıyer / İstanbul  ,ELECTRONICS,FREE,3,returned,EFT/Havale
+ORD-1306,N/A,N/A,0(555) 444 33 22,15-01-2024,"Çankaya, Ankara / 06540",sports,9999999.99,1,2,Kapıda Ödeme
+ORD-1307,Zeynep  AKSOY,zeynep.aksoy@outlook.com,,"Feb 28, 2024",Kadıköy / İstanbul / 34710,sports,"$1,250.50",-5,2,N/A
+#1308,  Mustafa Aydin  ,zeynep.aksoy@outlook.com,5321234567,9999-99-99,"Çankaya, Ankara / 06540",Book,"$1,250.50",ten,CANCELLED,EFT/Havale
+ORD-1309,BURAK CELIK,elif.sahin@gmail.com,+90 532 123 45 67,15/01/2024,Nilüfer / Bursa / 16140,Book,0.00,100000,1,cc
+ORD-1310,,caner@company.co.tr,+90 532 123 45 67,2024.01.15,"Yıldırım, Bursa - 16300",Elektronik,75.5,3,2,havale
+ORD-1311,mehmet KAYA,deniz.yildiz@gmail.com,0(555) 444 33 22,9999-99-99,  Sarıyer / İstanbul  ,sports,"15,000.00",5,COMPLETED,cc
+,Selin Ozturk ,N/A,0533 987 65 43,2024/03/10,Odunpazarı - Eskişehir,electronics, 2500 TL ,3,CANCELLED,credit card
+ORD-1313,CANER ERKIN,deniz.yildiz@gmail.com,N/A,9999-99-99,  Sarıyer / İstanbul  ,fashion,"$1,250.50",100000,shipped,N/A
+ORD-1314,BURAK CELIK,invalid_email_format,5321234567,2024/03/10,  Sarıyer / İstanbul  ,Giyim,"1250,50 €",100000,COMPLETED,credit card
+#1315,Selin Ozturk ,deniz.yildiz@gmail.com,+905423332211,,"Muratpaşa, Antalya",Spor & Outdoor, 2500 TL ,2.0,shipped,cc
+ORD-1316,Zeynep  AKSOY,N/A,532-111-2233,N/A,  Sarıyer / İstanbul  ,fashion,FREE,2.0,2,CREDIT_CARD
+ORD-1317,elIF Sahin ,burak.celik@gmail.com,5321234567,,Nilüfer / Bursa / 16140,ELECTRONICS,"1250,50 €",2.0,3,Kapıda Ödeme
+ORD-1318,BURAK CELIK,fatma@domain,,2024/03/10,  Sarıyer / İstanbul  ,ELECTRONICS,"$1,250.50",2.0,pending,crypto
+1319,Ayşe Demir,deniz.yildiz@gmail.com,N/A,,Odunpazarı - Eskişehir,Giyim,"$1,250.50",0,COMPLETED,Kapıda Ödeme
+ORD-1320,Selin Ozturk ,ayse_demir@hotmail.com,,2024.01.15,"Yıldırım, Bursa - 16300",Book,"1250,50 €",100000,COMPLETED,cc
+ORD-1321,mehmet KAYA,elif.sahin@gmail.com,+905423332211,15-01-2024,  ,Elektronik, 2500 TL ,-5,COMPLETED,havale
+#1322,Zeynep  AKSOY,elif.sahin@gmail.com,0500 000 00 00,,"Çankaya, Ankara / 06540",fashion,N/A,ten,returned,EFT/Havale
+ORD-1323,UNKNOWN,invalid_email_format,0500 000 00 00,15/01/2024,Konak - İzmir - 35000,Ev & Yaşam,"$1,250.50",3,pending,EFT/Havale
+ORD-1324,Zeynep  AKSOY,emre.koc@gmail.com,5321234567,"Feb 28, 2024",Odunpazarı - Eskişehir,Giyim,9999999.99,,3,havale
+,CANER ERKIN,deniz.yildiz@gmail.com,0(555) 444 33 22,"Feb 28, 2024",Odunpazarı - Eskişehir,Elektronik,$45.90,5,shipped,N/A
+ORD-1326,UNKNOWN,emre.koc@gmail.com,0(555) 444 33 22,2024-02-28,  Sarıyer / İstanbul  ,Ev & Yaşam,$45.90,5,2,EFT/Havale
+ORD-1327,N/A,deniz.yildiz@gmail.com,,"Jan 15, 2024",N/A,electronics,75.5,10,CANCELLED,N/A
+ORD-1328,Selin Ozturk ,elif.sahin@gmail.com,0533 987 65 43,2024-04-05,  Sarıyer / İstanbul  ,sports, 899.99 TL ,-5,shipped,BANK_TRANSFER
+#1329,elIF Sahin ,,532-111-2233,N/A,  Sarıyer / İstanbul  ,Giyim, 2500 TL ,10,returned,EFT/Havale
+1330,Zeynep  AKSOY,fatma@domain,,2024-04-05,  Sarıyer / İstanbul  ,Book,"$1,250.50",5,99,EFT/Havale
+ORD-1331,Deniz Yildiz,ayse_demir@hotmail.com,0533 987 65 43,,"Muratpaşa, Antalya",sports,9999999.99,5,3,EFT/Havale
+ORD-1332,  ahmet YILMAZ ,deniz.yildiz@gmail.com,invalid_phone,,Odunpazarı - Eskişehir,Giyim, 2500 TL ,1,2,havale
+ORD-1333,N/A,fatma@domain,,2024/03/10,"Yıldırım, Bursa - 16300",Spor & Outdoor,0.00,ten,returned,cash_on_delivery
+ORD-1334,Zeynep  AKSOY,burak.celik@gmail.com,N/A,N/A,N/A,Elektronik,FREE,1,returned,credit card
+ORD-1335,elIF Sahin ,zeynep.aksoy@outlook.com,0533 987 65 43,15/01/2024,Konak - İzmir - 35000,fashion,N/A,5,returned,BANK_TRANSFER
+#1336,fatma ARSLAN,burak.celik@gmail.com,5321234567,"Feb 28, 2024","Çankaya, Ankara / 06540",FASHION,75.5,10,pending,credit card
+ORD-1337,elIF Sahin ,ahmet.yilmaz@gmail.com,0533 987 65 43,2024-01-15,Odunpazarı - Eskişehir,sports, 2500 TL ,100000,3,BANK_TRANSFER
+,fatma ARSLAN,mehmet@yahoo,,"Jan 15, 2024",Odunpazarı - Eskişehir,Book,$45.90,10,CANCELLED,Kapıda Ödeme
+ORD-1339,Deniz Yildiz,mehmet@yahoo,532-111-2233,2024-13-45,  Sarıyer / İstanbul  ,Giyim,"$1,250.50",,CANCELLED,N/A
+ORD-1340,UNKNOWN,zeynep.aksoy@outlook.com,invalid_phone,2024-01-15,"Muratpaşa, Antalya",home_decor,N/A,2.0,2,crypto
+1341,mehmet KAYA,caner@company.co.tr,5321234567,2024.01.15,  ,ELECTRONICS,N/A,100000,returned,crypto
+ORD-1342,Deniz Yildiz,caner@company.co.tr,N/A,28/02/2024,"Yıldırım, Bursa - 16300",Giyim,0.00,2.0,pending,cash_on_delivery
+#1343,  Mustafa Aydin  ,burak.celik@gmail.com,N/A,"Jan 15, 2024",Nilüfer / Bursa / 16140,Kitap,0.00,2.0,3,cash_on_delivery
+ORD-1344,Ayşe Demir,invalid_email_format,+905423332211,15/01/2024,Konak - İzmir - 35000,fashion,75.5,-5,99,Kapıda Ödeme
+ORD-1345,Zeynep  AKSOY,deniz.yildiz@gmail.com,532-111-2233,9999-99-99,  Sarıyer / İstanbul  ,Giyim,"1250,50 €",10,99,cc
+ORD-1346,fatma ARSLAN,mehmet@yahoo,0500 000 00 00,15-01-2024,Konak - İzmir - 35000,Elektronik,FREE,10,1,cash_on_delivery
+ORD-1347,  ahmet YILMAZ ,burak.celik@gmail.com,532-111-2233,2024.01.15,  Sarıyer / İstanbul  ,Book,"15,000.00",100000,returned,Kapıda Ödeme
+ORD-1348,Deniz Yildiz,burak.celik@gmail.com,invalid_phone,N/A,  ,FASHION,"1250,50 €",2.0,1,BANK_TRANSFER
+ORD-1349,elIF Sahin ,ahmet.yilmaz@gmail.com,+905423332211,2024.01.15,N/A,Ev & Yaşam,"1250,50 €",10,returned,crypto
+#1350,fatma ARSLAN,ayse_demir@hotmail.com,N/A,15/01/2024,Nilüfer / Bursa / 16140,Book,FREE,NULL,1,N/A
+,fatma ARSLAN,invalid_email_format,invalid_phone,15/01/2024,"Muratpaşa, Antalya",Ev & Yaşam,"$1,250.50",10,shipped,cash_on_delivery
+1352,  Mustafa Aydin  ,ayse_demir@hotmail.com,0500 000 00 00,2024-04-05,"Çankaya, Ankara / 06540",home_decor,-100.00,,pending,EFT/Havale
+ORD-1353,Deniz Yildiz,zeynep.aksoy@outlook.com,532-111-2233,9999-99-99,Konak - İzmir - 35000,home_decor,-100.00,1,pending,crypto
+ORD-1354,elIF Sahin ,deniz.yildiz@gmail.com,,"Jan 15, 2024",Odunpazarı - Eskişehir,Spor & Outdoor,N/A,0,shipped,crypto
+ORD-1355,,,0533 987 65 43,"Jan 15, 2024",  Sarıyer / İstanbul  ,electronics,N/A,100000,3,cc
+ORD-1356,N/A,mehmet@yahoo,5321234567,2024-04-05,"Muratpaşa, Antalya",sports,$45.90,10,3,EFT/Havale
+#1357,Deniz Yildiz,elif.sahin@gmail.com,invalid_phone,28/02/2024,  ,ELECTRONICS,9999999.99,2.0,COMPLETED,crypto
+ORD-1358,emre KOC,elif.sahin@gmail.com,5321234567,"Feb 28, 2024",  ,fashion,0.00,1,2,N/A
+ORD-1359,Deniz Yildiz,,5321234567,2024-04-05,"Çankaya, Ankara / 06540",Book,$45.90,ten,COMPLETED,BANK_TRANSFER
+ORD-1360,BURAK CELIK,elif.sahin@gmail.com,5321234567,2024-04-05,Nilüfer / Bursa / 16140,fashion,"15,000.00",,3,EFT/Havale
+ORD-1361,  Mustafa Aydin  ,burak.celik@gmail.com,5321234567,2024-13-45,Kadıköy / İstanbul / 34710,electronics, 2500 TL ,100000,returned,CREDIT_CARD
+ORD-1362,Ayşe Demir,mehmet@yahoo,0500 000 00 00,"Feb 28, 2024",Kadıköy / İstanbul / 34710,Giyim,-100.00,-5,shipped,cc
+1363,  Mustafa Aydin  ,elif.sahin@gmail.com,0533 987 65 43,2024-13-45,Odunpazarı - Eskişehir,Ev & Yaşam, 2500 TL ,5,3,CREDIT_CARD
+#1364,Zeynep  AKSOY,,+905423332211,N/A,"Muratpaşa, Antalya",Giyim,9999999.99,2.0,2,CREDIT_CARD
+ORD-1365,N/A,burak.celik@gmail.com,0533 987 65 43,"Jan 15, 2024","Yıldırım, Bursa - 16300",home_decor,"15,000.00",100000,returned,CREDIT_CARD
+ORD-1366,  ahmet YILMAZ ,N/A,5321234567,2024-04-05,"Çankaya, Ankara / 06540",Giyim,75.5,-5,returned,credit card
+ORD-1367,N/A,zeynep.aksoy@outlook.com,0533 987 65 43,N/A,"Çankaya, Ankara / 06540",ELECTRONICS,FREE,5,shipped,cc
+ORD-1368,Zeynep  AKSOY,emre.koc@gmail.com,532-111-2233,2024-13-45,Konak - İzmir - 35000,ELECTRONICS,"15,000.00",,1,EFT/Havale
+ORD-1369,Deniz Yildiz,mehmet@yahoo,0500 000 00 00,2024-02-28,"Muratpaşa, Antalya",sports,75.5,-5,COMPLETED,EFT/Havale
+ORD-1370,Deniz Yildiz,burak.celik@gmail.com,0(555) 444 33 22,15/01/2024,"Çankaya, Ankara / 06540",Elektronik, 2500 TL ,,COMPLETED,cash_on_delivery
+#1371,Zeynep  AKSOY,caner@company.co.tr,532-111-2233,2024.01.15,Nilüfer / Bursa / 16140,sports, 2500 TL ,ten,99,EFT/Havale
+ORD-1372,UNKNOWN,N/A,N/A,15-01-2024,Kadıköy / İstanbul / 34710,sports,N/A,ten,99,EFT/Havale
+ORD-1373,fatma ARSLAN,invalid_email_format,invalid_phone,15-01-2024,Kadıköy / İstanbul / 34710,home_decor, 899.99 TL ,3,2,BANK_TRANSFER
+1374,BURAK CELIK,,N/A,15/01/2024,N/A,electronics,FREE,5,3,Kapıda Ödeme
+ORD-1375,  Mustafa Aydin  ,deniz.yildiz@gmail.com,invalid_phone,2024-02-28,N/A,sports,"1250,50 €",10,2,CREDIT_CARD
+ORD-1376,UNKNOWN,ayse_demir@hotmail.com,+90 532 123 45 67,15-01-2024,"Muratpaşa, Antalya",electronics,"$1,250.50",3,99,havale
+,Deniz Yildiz,N/A,,,  Sarıyer / İstanbul  ,Giyim,75.5,3,2,crypto
+#1378,fatma ARSLAN,deniz.yildiz@gmail.com,532-111-2233,15-01-2024,"Çankaya, Ankara / 06540",Ev & Yaşam, 2500 TL ,NULL,CANCELLED,cc
+ORD-1379,fatma ARSLAN,caner@company.co.tr,invalid_phone,9999-99-99,"Çankaya, Ankara / 06540",Ev & Yaşam,75.5,3,CANCELLED,CREDIT_CARD
+ORD-1380,N/A,ayse_demir@hotmail.com,invalid_phone,15/01/2024,  ,Kitap,0.00,1,shipped,cc
+ORD-1381,Ayşe Demir,ahmet.yilmaz@gmail.com,532-111-2233,N/A,Kadıköy / İstanbul / 34710,Elektronik, 899.99 TL ,5,99,crypto
+ORD-1382,Selin Ozturk ,N/A,+905423332211,"Jan 15, 2024",Odunpazarı - Eskişehir,Elektronik,75.5,0,2,CREDIT_CARD
+ORD-1383,CANER ERKIN,emre.koc@gmail.com,invalid_phone,15-01-2024,N/A,ELECTRONICS,N/A,,2,N/A
+ORD-1384,BURAK CELIK,fatma@domain,5321234567,2024-01-15,  ,Kitap,"1250,50 €",5,3,havale
+#1385,Selin Ozturk ,ayse_demir@hotmail.com,N/A,2024-13-45,"Çankaya, Ankara / 06540",home_decor,75.5,NULL,1,CREDIT_CARD
+ORD-1386,  Mustafa Aydin  ,ahmet.yilmaz@gmail.com,0(555) 444 33 22,2024-01-15,  ,fashion,$45.90,-5,3,CREDIT_CARD
+ORD-1387,fatma ARSLAN,emre.koc@gmail.com,invalid_phone,2024.01.15,Odunpazarı - Eskişehir,home_decor,$45.90,5,shipped,credit card
+ORD-1388,UNKNOWN,caner@company.co.tr,0533 987 65 43,2024/03/10,Kadıköy / İstanbul / 34710,Elektronik,-100.00,NULL,1,Kapıda Ödeme
+ORD-1389,Ayşe Demir,burak.celik@gmail.com,+905423332211,,Nilüfer / Bursa / 16140,fashion, 2500 TL ,NULL,returned,CREDIT_CARD
+,CANER ERKIN,invalid_email_format,+905423332211,9999-99-99,Nilüfer / Bursa / 16140,Spor & Outdoor,0.00,ten,returned,cash_on_delivery
+ORD-1391,UNKNOWN,burak.celik@gmail.com,0(555) 444 33 22,N/A,N/A,home_decor,"1250,50 €",1,COMPLETED,CREDIT_CARD
+#1392,N/A,fatma@domain,5321234567,2024-13-45,Kadıköy / İstanbul / 34710,fashion,"$1,250.50",100000,COMPLETED,havale
+ORD-1393,Ayşe Demir,invalid_email_format,,2024.01.15,  Sarıyer / İstanbul  ,FASHION,"$1,250.50",-5,shipped,credit card
+ORD-1394,  ahmet YILMAZ ,invalid_email_format,,28/02/2024,Odunpazarı - Eskişehir,FASHION,75.5,2.0,2,crypto
+ORD-1395,mehmet KAYA,,invalid_phone,15/01/2024,"Yıldırım, Bursa - 16300",Kitap,"$1,250.50",3,3,BANK_TRANSFER
+1396,elIF Sahin ,elif.sahin@gmail.com,5321234567,,  Sarıyer / İstanbul  ,Spor & Outdoor,75.5,5,pending,N/A
+ORD-1397,elIF Sahin ,invalid_email_format,0533 987 65 43,2024.01.15,Konak - İzmir - 35000,Kitap, 2500 TL ,-5,2,cc
+ORD-1398,BURAK CELIK,burak.celik@gmail.com,5321234567,28/02/2024,"Çankaya, Ankara / 06540",Book,FREE,ten,returned,havale
+#1399,BURAK CELIK,elif.sahin@gmail.com,0533 987 65 43,15/01/2024,Konak - İzmir - 35000,sports,N/A,,1,BANK_TRANSFER
+ORD-1400,  Mustafa Aydin  ,caner@company.co.tr,532-111-2233,15/01/2024,"Muratpaşa, Antalya",fashion,$45.90,NULL,1,havale
+ORD-1401,elIF Sahin ,mehmet@yahoo,+90 532 123 45 67,28/02/2024,  ,Book,75.5,NULL,CANCELLED,credit card
+ORD-1402,BURAK CELIK,ayse_demir@hotmail.com,532-111-2233,15/01/2024,Kadıköy / İstanbul / 34710,electronics,-100.00,-5,CANCELLED,Kapıda Ödeme
+,CANER ERKIN,,0533 987 65 43,9999-99-99,"Yıldırım, Bursa - 16300",Ev & Yaşam, 2500 TL ,1,2,BANK_TRANSFER
+ORD-1404,,,0500 000 00 00,,Konak - İzmir - 35000,ELECTRONICS,FREE,2.0,1,N/A
+ORD-1405,  ahmet YILMAZ ,mehmet@yahoo,N/A,28/02/2024,  Sarıyer / İstanbul  ,FASHION,"$1,250.50",3,COMPLETED,cc
+#1406,CANER ERKIN,invalid_email_format,532-111-2233,15-01-2024,Nilüfer / Bursa / 16140,FASHION,"1250,50 €",1,CANCELLED,havale
+1407,BURAK CELIK,zeynep.aksoy@outlook.com,,"Feb 28, 2024",Kadıköy / İstanbul / 34710,ELECTRONICS,N/A,3,3,Kapıda Ödeme
+ORD-1408,N/A,,,2024.01.15,N/A,electronics,$45.90,5,returned,crypto
+ORD-1409,Selin Ozturk ,burak.celik@gmail.com,5321234567,9999-99-99,N/A,fashion,$45.90,0,3,CREDIT_CARD
+ORD-1410,CANER ERKIN,deniz.yildiz@gmail.com,0(555) 444 33 22,2024-01-15,Nilüfer / Bursa / 16140,electronics, 899.99 TL ,NULL,pending,EFT/Havale
+ORD-1411,N/A,mehmet@yahoo,0533 987 65 43,2024.01.15,"Muratpaşa, Antalya",Ev & Yaşam,"15,000.00",1,CANCELLED,EFT/Havale
+ORD-1412,  Mustafa Aydin  ,emre.koc@gmail.com,invalid_phone,2024-02-28,Konak - İzmir - 35000,Elektronik,-100.00,,pending,cash_on_delivery
+#1413,,deniz.yildiz@gmail.com,+90 532 123 45 67,N/A,Odunpazarı - Eskişehir,Kitap,0.00,-5,CANCELLED,N/A
+ORD-1414,fatma ARSLAN,elif.sahin@gmail.com,532-111-2233,"Feb 28, 2024",Kadıköy / İstanbul / 34710,ELECTRONICS,"$1,250.50",ten,CANCELLED,CREDIT_CARD
+ORD-1415,fatma ARSLAN,burak.celik@gmail.com,+90 532 123 45 67,2024-02-28,"Yıldırım, Bursa - 16300",home_decor,"1250,50 €",5,3,cash_on_delivery
+,  ahmet YILMAZ ,ahmet.yilmaz@gmail.com,532-111-2233,9999-99-99,Konak - İzmir - 35000,ELECTRONICS,"15,000.00",5,2,cash_on_delivery
+ORD-1417,emre KOC,,invalid_phone,9999-99-99,"Çankaya, Ankara / 06540",fashion,N/A,5,3,cc
+1418,emre KOC,zeynep.aksoy@outlook.com,0500 000 00 00,2024-13-45,Odunpazarı - Eskişehir,Elektronik,75.5,NULL,pending,BANK_TRANSFER
+ORD-1419,Deniz Yildiz,deniz.yildiz@gmail.com,532-111-2233,28/02/2024,Nilüfer / Bursa / 16140,Spor & Outdoor,75.5,0,3,cc
+#1420,emre KOC,ahmet.yilmaz@gmail.com,N/A,28/02/2024,"Yıldırım, Bursa - 16300",electronics,"1250,50 €",,pending,EFT/Havale
+ORD-1421,N/A,,N/A,15/01/2024,  ,Elektronik,FREE,2.0,CANCELLED,cash_on_delivery
+ORD-1422,CANER ERKIN,mehmet@yahoo,0533 987 65 43,2024-04-05,Odunpazarı - Eskişehir,FASHION,"$1,250.50",0,CANCELLED,BANK_TRANSFER
+ORD-1423,emre KOC,ayse_demir@hotmail.com,5321234567,15-01-2024,"Çankaya, Ankara / 06540",Spor & Outdoor,"$1,250.50",1,COMPLETED,N/A
+ORD-1424,emre KOC,zeynep.aksoy@outlook.com,532-111-2233,28/02/2024,  ,Giyim,FREE,NULL,COMPLETED,credit card
+ORD-1425,  Mustafa Aydin  ,burak.celik@gmail.com,N/A,2024-13-45,"Muratpaşa, Antalya",Elektronik, 899.99 TL ,2.0,1,havale
+ORD-1426,  ahmet YILMAZ ,caner@company.co.tr,+905423332211,15/01/2024,"Çankaya, Ankara / 06540",fashion,"1250,50 €",3,3,credit card
+#1427,fatma ARSLAN,ayse_demir@hotmail.com,5321234567,9999-99-99,"Yıldırım, Bursa - 16300",FASHION,75.5,1,COMPLETED,cc
+ORD-1428,UNKNOWN,zeynep.aksoy@outlook.com,532-111-2233,2024-01-15,"Çankaya, Ankara / 06540",fashion,-100.00,ten,COMPLETED,crypto
+1429,emre KOC,N/A,,15-01-2024,Nilüfer / Bursa / 16140,Ev & Yaşam,-100.00,2.0,1,Kapıda Ödeme
+ORD-1430,UNKNOWN,fatma@domain,0500 000 00 00,"Jan 15, 2024",Kadıköy / İstanbul / 34710,fashion,"$1,250.50",3,2,havale
+ORD-1431,  Mustafa Aydin  ,,N/A,"Feb 28, 2024","Muratpaşa, Antalya",ELECTRONICS,"$1,250.50",ten,3,havale
+ORD-1432,Ayşe Demir,burak.celik@gmail.com,0533 987 65 43,15-01-2024,  Sarıyer / İstanbul  ,FASHION, 899.99 TL ,100000,shipped,credit card
+ORD-1433,Deniz Yildiz,fatma@domain,invalid_phone,"Jan 15, 2024",Odunpazarı - Eskişehir,Giyim,FREE,-5,returned,CREDIT_CARD
+#1434,elIF Sahin ,burak.celik@gmail.com,0500 000 00 00,15-01-2024,"Muratpaşa, Antalya",Ev & Yaşam,0.00,1,3,credit card
+ORD-1435,Ayşe Demir,,5321234567,,N/A,Giyim,0.00,ten,99,CREDIT_CARD
+ORD-1436,  Mustafa Aydin  ,zeynep.aksoy@outlook.com,,28/02/2024,N/A,sports, 899.99 TL ,,CANCELLED,N/A
+ORD-1437,elIF Sahin ,ayse_demir@hotmail.com,invalid_phone,2024-04-05,Kadıköy / İstanbul / 34710,Book,0.00,NULL,3,credit card
+ORD-1438,Selin Ozturk ,burak.celik@gmail.com,532-111-2233,"Jan 15, 2024","Muratpaşa, Antalya",home_decor,"1250,50 €",1,COMPLETED,credit card
+ORD-1439,Deniz Yildiz,zeynep.aksoy@outlook.com,0(555) 444 33 22,2024-04-05,Konak - İzmir - 35000,Kitap,N/A,5,2,credit card
+1440,Zeynep  AKSOY,fatma@domain,invalid_phone,2024/03/10,Odunpazarı - Eskişehir,Ev & Yaşam,"15,000.00",10,1,EFT/Havale
+#1441,UNKNOWN,fatma@domain,invalid_phone,15/01/2024,  Sarıyer / İstanbul  ,Elektronik,"1250,50 €",,2,credit card
+,UNKNOWN,emre.koc@gmail.com,0533 987 65 43,,Nilüfer / Bursa / 16140,Book,FREE,3,shipped,Kapıda Ödeme
+ORD-1443,Deniz Yildiz,burak.celik@gmail.com,N/A,9999-99-99,  ,electronics,"1250,50 €",0,COMPLETED,cc
+ORD-1444,UNKNOWN,deniz.yildiz@gmail.com,invalid_phone,2024-01-15,  Sarıyer / İstanbul  ,fashion,75.5,ten,1,N/A
+ORD-1445,,elif.sahin@gmail.com,5321234567,2024-01-15,Odunpazarı - Eskişehir,Ev & Yaşam,N/A,0,returned,credit card
+ORD-1446,  Mustafa Aydin  ,invalid_email_format,532-111-2233,15-01-2024,  ,fashion,N/A,3,2,BANK_TRANSFER
+ORD-1447,BURAK CELIK,invalid_email_format,invalid_phone,N/A,  ,Book,FREE,1,99,cc
+#1448,Ayşe Demir,elif.sahin@gmail.com,,28/02/2024,Konak - İzmir - 35000,Book,0.00,1,3,BANK_TRANSFER
+ORD-1449,,invalid_email_format,+90 532 123 45 67,2024.01.15,Kadıköy / İstanbul / 34710,FASHION,"$1,250.50",5,CANCELLED,havale
+ORD-1450,CANER ERKIN,burak.celik@gmail.com,,28/02/2024,"Çankaya, Ankara / 06540",sports,"$1,250.50",ten,pending,N/A
+1451,UNKNOWN,burak.celik@gmail.com,532-111-2233,2024-04-05,  ,Kitap,"15,000.00",5,pending,cc
+ORD-1452,  Mustafa Aydin  ,elif.sahin@gmail.com,0533 987 65 43,15-01-2024,Kadıköy / İstanbul / 34710,Giyim,"$1,250.50",-5,CANCELLED,BANK_TRANSFER
+ORD-1453,Deniz Yildiz,invalid_email_format,0(555) 444 33 22,15-01-2024,  Sarıyer / İstanbul  ,Book,"$1,250.50",100000,1,N/A
+ORD-1454,,mehmet@yahoo,532-111-2233,9999-99-99,Kadıköy / İstanbul / 34710,home_decor,N/A,,shipped,havale
+#1455,Zeynep  AKSOY,zeynep.aksoy@outlook.com,5321234567,"Feb 28, 2024",Nilüfer / Bursa / 16140,home_decor, 899.99 TL ,0,99,EFT/Havale
+ORD-1456,Zeynep  AKSOY,deniz.yildiz@gmail.com,0533 987 65 43,2024-01-15,N/A,sports,FREE,NULL,shipped,havale
+ORD-1457,Deniz Yildiz,ayse_demir@hotmail.com,0500 000 00 00,15/01/2024,Odunpazarı - Eskişehir,Ev & Yaşam,9999999.99,5,shipped,havale
+ORD-1458,Deniz Yildiz,N/A,+905423332211,2024.01.15,Konak - İzmir - 35000,Book,-100.00,1,COMPLETED,cash_on_delivery
+ORD-1459,Deniz Yildiz,mehmet@yahoo,+90 532 123 45 67,2024-13-45,  ,Ev & Yaşam,N/A,3,COMPLETED,Kapıda Ödeme
+ORD-1460,emre KOC,ahmet.yilmaz@gmail.com,N/A,N/A,"Yıldırım, Bursa - 16300",home_decor,FREE,ten,99,N/A
+ORD-1461,,,5321234567,2024/03/10,Nilüfer / Bursa / 16140,Elektronik,9999999.99,NULL,3,havale
+#1462,Ayşe Demir,burak.celik@gmail.com,532-111-2233,N/A,Nilüfer / Bursa / 16140,Spor & Outdoor,"15,000.00",-5,pending,credit card
+ORD-1463,N/A,caner@company.co.tr,0(555) 444 33 22,N/A,Nilüfer / Bursa / 16140,Giyim,FREE,5,shipped,EFT/Havale
+ORD-1464,elIF Sahin ,burak.celik@gmail.com,0533 987 65 43,"Feb 28, 2024",Kadıköy / İstanbul / 34710,sports,0.00,,2,N/A
+ORD-1465,,invalid_email_format,,15/01/2024,  Sarıyer / İstanbul  ,Book,N/A,3,1,cc
+ORD-1466,mehmet KAYA,invalid_email_format,5321234567,28/02/2024,"Yıldırım, Bursa - 16300",FASHION,"1250,50 €",5,3,credit card
+ORD-1467,BURAK CELIK,caner@company.co.tr,532-111-2233,2024-02-28,Kadıköy / İstanbul / 34710,electronics, 899.99 TL ,0,CANCELLED,cc
+,UNKNOWN,emre.koc@gmail.com,532-111-2233,"Feb 28, 2024","Çankaya, Ankara / 06540",Elektronik,0.00,3,COMPLETED,Kapıda Ödeme
+#1469,Zeynep  AKSOY,burak.celik@gmail.com,invalid_phone,2024-01-15,Kadıköy / İstanbul / 34710,Book,-100.00,5,1,cash_on_delivery
+ORD-1470,Selin Ozturk ,fatma@domain,0(555) 444 33 22,2024-01-15,Kadıköy / İstanbul / 34710,sports,75.5,ten,CANCELLED,cash_on_delivery
+ORD-1471,elIF Sahin ,mehmet@yahoo,0533 987 65 43,28/02/2024,N/A,Kitap,N/A,-5,2,CREDIT_CARD
+ORD-1472,elIF Sahin ,elif.sahin@gmail.com,0500 000 00 00,N/A,N/A,Kitap,"15,000.00",5,COMPLETED,cc
+1473,CANER ERKIN,burak.celik@gmail.com,5321234567,,"Muratpaşa, Antalya",Elektronik,$45.90,1,CANCELLED,BANK_TRANSFER
+ORD-1474,emre KOC,mehmet@yahoo,0(555) 444 33 22,N/A,Kadıköy / İstanbul / 34710,Kitap,"15,000.00",-5,2,cash_on_delivery
+ORD-1475,emre KOC,,+90 532 123 45 67,28/02/2024,Nilüfer / Bursa / 16140,Book,0.00,1,1,credit card
+#1476,Deniz Yildiz,ahmet.yilmaz@gmail.com,+90 532 123 45 67,N/A,"Çankaya, Ankara / 06540",Giyim, 899.99 TL ,3,2,crypto
+ORD-1477,elIF Sahin ,burak.celik@gmail.com,532-111-2233,2024.01.15,Kadıköy / İstanbul / 34710,Ev & Yaşam,$45.90,100000,2,crypto
+ORD-1478,elIF Sahin ,deniz.yildiz@gmail.com,N/A,N/A,Konak - İzmir - 35000,Giyim, 2500 TL ,NULL,2,havale
+ORD-1479,Ayşe Demir,emre.koc@gmail.com,0533 987 65 43,"Feb 28, 2024","Muratpaşa, Antalya",Kitap,-100.00,0,99,BANK_TRANSFER
+ORD-1480,CANER ERKIN,N/A,invalid_phone,15-01-2024,Konak - İzmir - 35000,electronics,"15,000.00",10,CANCELLED,N/A
+,CANER ERKIN,invalid_email_format,+90 532 123 45 67,2024-01-15,"Çankaya, Ankara / 06540",ELECTRONICS,0.00,100000,returned,cc
+ORD-1482,Ayşe Demir,emre.koc@gmail.com,,15/01/2024,"Çankaya, Ankara / 06540",Ev & Yaşam,9999999.99,ten,returned,havale
+#1483,elIF Sahin ,burak.celik@gmail.com,+90 532 123 45 67,15/01/2024,Konak - İzmir - 35000,electronics,N/A,5,pending,Kapıda Ödeme
+1484,emre KOC,ayse_demir@hotmail.com,0533 987 65 43,2024-04-05,Kadıköy / İstanbul / 34710,electronics,"1250,50 €",100000,3,cash_on_delivery
+ORD-1485,CANER ERKIN,burak.celik@gmail.com,N/A,15-01-2024,"Çankaya, Ankara / 06540",fashion,FREE,-5,2,Kapıda Ödeme
+ORD-1486,Zeynep  AKSOY,burak.celik@gmail.com,+905423332211,2024-04-05,  Sarıyer / İstanbul  ,Spor & Outdoor, 899.99 TL ,3,3,credit card
+ORD-1487,mehmet KAYA,N/A,+90 532 123 45 67,2024-04-05,Konak - İzmir - 35000,ELECTRONICS,$45.90,,returned,EFT/Havale
+ORD-1488,Deniz Yildiz,burak.celik@gmail.com,532-111-2233,9999-99-99,  Sarıyer / İstanbul  ,fashion,0.00,1,3,N/A
+ORD-1489,,burak.celik@gmail.com,0533 987 65 43,28/02/2024,  ,electronics, 2500 TL ,0,pending,CREDIT_CARD
+#1490,emre KOC,,,,"Yıldırım, Bursa - 16300",Spor & Outdoor,0.00,ten,pending,crypto
+ORD-1491,fatma ARSLAN,N/A,N/A,15/01/2024,  Sarıyer / İstanbul  ,sports,75.5,ten,returned,cash_on_delivery
+ORD-1492,Deniz Yildiz,,invalid_phone,"Jan 15, 2024",N/A,Kitap,"$1,250.50",1,3,crypto
+ORD-1493,  Mustafa Aydin  ,burak.celik@gmail.com,0500 000 00 00,2024-04-05,Konak - İzmir - 35000,ELECTRONICS, 899.99 TL ,5,CANCELLED,cash_on_delivery
+,elIF Sahin ,ahmet.yilmaz@gmail.com,,2024.01.15,N/A,sports,$45.90,3,CANCELLED,credit card
+1495,BURAK CELIK,burak.celik@gmail.com,N/A,"Feb 28, 2024","Çankaya, Ankara / 06540",FASHION, 899.99 TL ,5,2,N/A
+ORD-1496,emre KOC,,+90 532 123 45 67,15/01/2024,  Sarıyer / İstanbul  ,Giyim,"$1,250.50",NULL,99,CREDIT_CARD
+#1497,  Mustafa Aydin  ,ayse_demir@hotmail.com,N/A,9999-99-99,Nilüfer / Bursa / 16140,Book,"15,000.00",ten,returned,cash_on_delivery
+ORD-1498,CANER ERKIN,ahmet.yilmaz@gmail.com,0(555) 444 33 22,2024-04-05,  ,fashion,"15,000.00",,returned,cash_on_delivery
+ORD-1499,emre KOC,burak.celik@gmail.com,0533 987 65 43,15/01/2024,"Muratpaşa, Antalya",electronics,FREE,5,shipped,crypto
+ORD-1500,fatma ARSLAN,caner@company.co.tr,0533 987 65 43,2024-01-15,Konak - İzmir - 35000,FASHION,"1250,50 €",3,2,havale

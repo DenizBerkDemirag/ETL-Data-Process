@@ -1,0 +1,104 @@
+Transformation
+
+1. Genel Temizlik ve Null Standardizasyonu
+Boşluk Temizliği (Trimming): 
+Tüm metinsel alanların başında ve sonunda kalan gereksiz boşlukları sil (.strip()).
+
+Bozuk Değerlerin Null Yapılması:
+"N/A", "UNKNOWN", "FREE", "", "NULL" gibi sahte/placeholder değerleri veritabanı karşılığı olan gerçek NULL (NaN) değerine çevir.
+
+2. Birincil Anahtar Standardizasyonu & Tekilleştirme
+Format Standartlaştırma
+	- #1007 $\rightarrow$ # işaretini kaldırıp ORD-1007 yap.
+	- 1011 $\rightarrow$ Sayısal olanların başına ORD- ekle (ORD-1011).
+
+Boş ID Filtreleme:
+order_id alanı boş veya NULL olan satırları eler (ör. Satır 14, 27).
+
+Tekilleştirme (Deduplication):
+Aynı order_id'ye sahip birden fazla kayıt varsa (ör. mükerrer kayıtlar), en çok dolu alana sahip geçerli kaydı tut.
+
+3. Ad-Soyad Ayırma ve Formatlama (customer_name)
+İç Boşluk Temizliği:
+"Zeynep  AKSOY" $\rightarrow$ Aradaki çift boşluğu teke indir ("Zeynep AKSOY").
+
+Casing (Büyük/Küçük Harf):
+"  ahmet YILMAZ ", "elIF Sahin " $\rightarrow$ Standart Title Case yap ("Ahmet Yılmaz", "Elif Şahin")
+
+Kolon Ayırma (Splitting): Metni ilk boşluktan ikiye böl:
+	- first_name: "Ahmet"
+	- last_name: "Yılmaz"
+
+4. E-Posta Geçerlilik Kontrolü & Temizliği (customer_email)
+Küçük Harfe Çevirme:
+Tüm e-postaları .lower() ile küçük harfe dönüştür.
+
+Regex Validation:
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ deseni ile doğrula.
+
+5. Telefon Numarası Formatlama (phone_number)
+Karakter Temizleme:
+Rakam dışındaki tüm karakterleri (+, -, boşluk, parantez) kaldır.
+
+Formatlama:
+"+90 532 123 45 67", "0(555) 444 33 22" $\rightarrow$ 05321234567 veya +905321234567 standart formatına getir.
+
+Sahte/Geçersiz Telefonları Eleme:
+"05000000000" veya "invalid_phone" gibi geçersiz numaraları NULL yap.
+
+6. Karışık Tarihleri Standart ISO Formatına Çevirme (order_date)
+Çoklu Format Parse Etme:
+	-"2024-01-15" (ISO)
+	-"15/01/2024" (DD/MM/YYYY)
+	-"Jan 15, 2024" (MMM DD, YYYY)
+	-"2024.01.15" (YYYY.MM.DD) $\rightarrow$ Hepsini standart YYYY-MM-DD (ISO-8601) tarih tipine (datetime) dönüştür.
+
+Mantıksız Tarih Filtresi:
+"9999-99-99" veya "2024-13-45" gibi geçersiz tarihleri NULL yap veya satırı ele.
+		
+
+7. Birleşik Adres Metnini Kolonlara Bölme (raw_address)
+Seperatör Ayrıştırma: /, ,, - seperatörlerine göre parse et.
+	- Örnek: "Kadıköy / İstanbul / 34710"
+	- ilce $\rightarrow$ "Kadıköy"
+	- sehir $\rightarrow$ "İstanbul"
+	- posta_kodu $\rightarrow$ "34710"
+
+
+8. Kategori Standartlaştırma / Mapping (product_category)
+Farklı dilde veya büyük/küçük harfle yazılmış kategorileri haritala (Dictionary Mapping):
+	- "electronics", "ELECTRONICS", "Elektronik" $\rightarrow$ Elektronik
+	- "home_decor", "Ev & Yaşam" $\rightarrow$ Ev & Yaşam
+	- "fashion", "FASHION", "Giyim" $\rightarrow$ Giyim
+	- "Book", "Kitap" $\rightarrow$ Kitap
+	- "sports", "Spor & Outdoor" $\rightarrow$ Spor & Outdoor
+
+9. Fiyat ve Stok Miktarı Parse Etme & Outlier Temizliği
+Fiyat (product_price):
+   -Sembol & Ayraç Temizleme:
+	- $, TL, € sembollerini sil. Virgülleri (1250,50) noktaya çevir (1250.50). float yap.
+   -Outlier/Hata Filtresi:
+	- Negatif fiyatlar (-100.00) $\rightarrow$ NULL yap veya satırı ele.
+	- Aşırı uç değerler (9999999.99) $\rightarrow$ NULL yap.
+	- "FREE" $\rightarrow$ 0.0.
+
+10. Durum ve Ödeme Yöntemi Kodlarını Anlamlandırma
+Sipariş Durumu (order_status):
+	1, "pending" $\rightarrow$ BEKLEMEDE
+	2, "CANCELLED" $\rightarrow$ IPTAL
+	3, "COMPLETED", "shipped" $\rightarrow$ TAMAMLANDI
+	"returned" $\rightarrow$ IADE
+99 $\rightarrow$ BILINMIYOR
+Ödeme Yöntemi (payment_method):
+	"CREDIT_CARD", "credit card", "cc" $\rightarrow$ Kredi Kartı
+	"BANK_TRANSFER", "havale", "EFT/Havale" $\rightarrow$ Havale / EFT
+	"cash_on_delivery", "Kapıda Ödeme" $\rightarrow$ Kapıda Ödeme
+	"crypto" $\rightarrow$ Kripto
+
+11. Türetilmiş Kolonlar & Veri Yükleme (Load Phase)
+Türetilmiş Kolon (Computed Column):
+$$\text{total_amount} = \text{clean_unit_price} \times \text{clean_quantity}$$
+
+Veri Ambarı Yüklemesi:
+dim_customers tablosuna müşterileri yükle.
+fact_orders tablosuna sipariş gerçeklik verilerini yükle.
