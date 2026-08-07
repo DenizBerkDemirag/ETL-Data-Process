@@ -149,3 +149,17 @@ def standardize_order_dates(df: pd.Dataframe) -> pd.DataFrame:
     )
 
     return df
+
+def split_address(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+
+    address_parts = (
+        df["raw_address"]
+        .str.split(r"\s*(?:/|,+|-)\s*", expand=True)
+    )
+
+    df["ilce"] = address_parts[0].str.strip()
+    df["sehir"] = address_parts[1].str.strip()
+    df["posta_kodu"] = address_parts[2].str.strip()
+
+    return df
