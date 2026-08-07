@@ -138,3 +138,14 @@ def remove_invalid_phone_numbers(df: pd.Dataframe) -> pd.Dataframe:
     df.loc[~valid, "phone_number"] = pd.NA
     
     return df
+
+def standardize_order_dates(df: pd.Dataframe) -> pd.DataFrame:
+    df = df.copy()
+
+    df["order_date"] = pd.to_datetime(
+        df["order_date"],
+        format="mixed",
+        errors="coerce"
+    )
+
+    return df
